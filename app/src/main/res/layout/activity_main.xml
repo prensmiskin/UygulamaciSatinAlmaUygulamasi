@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="10 Litre  Benzin"
+        android:textSize="30sp"
+        android:id="@+id/TextOne"/>
+
+    <Button
+        android:id="@+id/btnbenzinSatınalOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Benzin Satın Al"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnbenzinSatınalTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Benzin Satın Al Two"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAboneSatınal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abonelik Satın Al"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btnSatinAldiklerim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Satın Aldıklarım"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TextTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Sonuç"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
